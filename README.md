@@ -2,29 +2,88 @@
 
 A modern, comprehensive React TypeScript application that helps farmers optimize their agricultural practices through AI-powered recommendations, yield predictions, and resource management insights.
 
+---
+
 ## 🌟 Features
 
 ### Core Functionality
-- **Smart Onboarding**: User-friendly setup with crop selection, region mapping, and soil type identification
-- **AI-Powered Dashboard**: Real-time recommendations based on current conditions
-- **Yield Prediction**: 30-day forecasting with interactive charts
-- **Scenario Simulation**: Adjust rainfall, soil nutrients, and temperature to see impact
-- **Resource Optimization**: Water usage tracking and savings calculations
-- **Historical Data**: Track past recommendations and export capabilities
-- **Shareable Scenarios**: Generate URLs to share farming scenarios
+- **Smart Onboarding:** User-friendly setup with crop selection, region mapping, and soil type identification  
+- **AI-Powered Dashboard:** Real-time recommendations based on current conditions  
+- **Yield Prediction:** 30-day forecasting with interactive charts  
+- **Scenario Simulation:** Adjust rainfall, soil nutrients, and temperature to see impact  
+- **Resource Optimization:** Water usage tracking and savings calculations  
+- **Historical Data:** Track past recommendations and export capabilities  
+- **Shareable Scenarios:** Generate URLs to share farming scenarios  
 
 ### Technical Features
-- **Responsive Design**: Mobile-first approach with perfect desktop experience
-- **Dark Mode**: Persistent theme switching with system preference detection
-- **Real-time Updates**: Instant chart updates when scenario parameters change
-- **Accessibility**: Full ARIA compliance and semantic HTML
-- **Performance**: Optimized with React Query caching and lazy loading
+- **Responsive Design:** Mobile-first approach with perfect desktop experience  
+- **Dark Mode:** Persistent theme switching with system preference detection  
+- **Real-time Updates:** Instant chart updates when scenario parameters change  
+- **Accessibility:** Full ARIA compliance and semantic HTML  
+- **Performance:** Optimized with React Query caching and lazy loading  
+
+---
+
+## 🤖 AI & Machine Learning Features
+
+### 1. Yield Prediction
+- **Goal:** Forecast crop yield for 30 days based on soil, weather, and farm parameters  
+- **Techniques:** LSTM, GRU, Prophet, Random Forest Regression, XGBoost  
+- **Inputs:** Historical yield, weather data, soil composition, farm size, irrigation methods  
+- **Integration:** Interactive charts show predicted yield and water/fertilizer usage  
+
+### 2. AI-Powered Recommendations
+- **Goal:** Suggest optimal farming practices (water, fertilizer, labor)  
+- **Techniques:** Rule-based expert systems, supervised learning, optional reinforcement learning  
+- **Integration:** Recommendations include severity, confidence score, and expected savings  
+
+### 3. Scenario Simulation
+- **Goal:** Simulate changes (rainfall, temperature, nutrients) and see predicted outcomes  
+- **Techniques:** Predictive modeling, Monte Carlo simulations, sensitivity analysis  
+- **Integration:** Sliders dynamically update dashboard predictions  
+
+### 4. Resource Optimization
+- **Goal:** Minimize water, fertilizer, and labor usage while maximizing yield  
+- **Techniques:** Linear programming, genetic algorithms, regression models for resource estimation  
+- **Integration:** Displays savings in liters, kg, hours, and converts to monetary value  
+
+### 5. Data Analytics & Insights
+- **Goal:** Analyze historical trends and patterns  
+- **Techniques:** Clustering (K-Means/DBSCAN), anomaly detection, interactive visualizations  
+- **Integration:** Provides AI-driven insights for better farm management  
+
+### 6. Optional Advanced AI Features
+- **Computer Vision:** Detect crop health or disease using images (YOLOv8, TensorFlow/Keras)  
+- **NLP Chatbot:** Answer farming queries or generate reports (Hugging Face Transformers)  
+- **Weather Forecast Integration:** Combine with predictive models for improved yield forecasting  
+
+### Suggested AI Tech Stack
+| Component | Technology/Library |
+|-----------|------------------|
+| Backend ML Serving | FastAPI / Node.js + Python ML microservices |
+| Time Series Forecasting | Prophet, LSTM, GRU (TensorFlow/Keras, PyTorch) |
+| Regression / Recommendations | Scikit-learn, XGBoost, LightGBM |
+| Optimization | PuLP (Python), OR-Tools |
+| Data Storage | PostgreSQL / MongoDB |
+| Real-time Updates | WebSockets / React Query |
+| Computer Vision | OpenCV + YOLOv8 / TensorFlow Object Detection |
+| NLP (optional) | Hugging Face Transformers (GPT, T5) |
+
+---
 
 ## 🚀 Getting Started
 
 ### Prerequisites
-- Node.js 18+ 
-- npm, yarn, or pnpm
+- Node.js 18+  
+- npm, yarn, or pnpm  
+
+### Installation
+Clone and install dependencies:
+```bash
+git clone <repository-url>
+cd sustainable-farming-assistant
+npm install
+
 
 ### Installation
 
